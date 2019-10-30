@@ -32,4 +32,4 @@ const incrementAction = { //creating Action
 
 store.dispatch(incrementAction) //using dispatch with Action to change State on Store
 
-console.log(store.getState())
+console.log(store.getState()) //-------------> 4
