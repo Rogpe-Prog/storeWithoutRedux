@@ -1,4 +1,6 @@
 // Creating Store without Redux
+//That is knowing how Factory Pattern: a ubiquitous pattern in JS for creating complex object
+// then Readux Store is a Factory Pattern
 
 function createStore(reducer) { //creating function Store
     let state = 1
